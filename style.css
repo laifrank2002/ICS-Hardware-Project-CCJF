@@ -1,0 +1,65 @@
+body {
+	background-color : white;
+	font-family : "Cambria","Calibri","Times New Roman","Serif";
+	margin: 0;
+}
+
+/* Vertical Navbar */
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	width: 15%;
+	background-color : #383527;
+	font-size : 1.5em;
+	/* Auto Handle */
+	height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+/* Dynamic */
+li a {
+	display: block;
+	color : grey;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+/* I really don't know why I have to do this */
+a:hover {
+	cursor: pointer;
+}
+/* Or this */
+.button {
+    background-color: inherit;
+    border: none;
+    color: grey;
+	font-family : inherit;
+    text-align: center;
+	font-size : inherit;
+    text-decoration: none;
+    display: block;
+	padding: 8px 16px;
+    cursor: pointer;
+}
+/* Regulation so no overlap*/
+.content {
+	margin-left : 15%; 
+	padding : 1px 16px;
+}
+/* makes it centered and looks nice*/
+article {
+	margin-left : 20%;
+	margin-right : 20%;
+	width : 60%;
+}
+
+img {
+	display: block;
+    margin: auto;
+	width: 100%;
+}
