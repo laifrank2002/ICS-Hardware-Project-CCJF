@@ -63,3 +63,8 @@ img {
     margin: auto;
 	width: 100%;
 }
+/* for displaying many images */
+.imgContainerItem {
+	width:30%;
+	float:left;
+}

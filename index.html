@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>How to Computer</title>
 	<meta charset="UTF-8" />
@@ -7,13 +7,6 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<!-- Site Icon -->
 	<link rel="icon" href="icon.ico">
-	<!-- The Liberty Bell March -->
-	<audio id="theme">
-		<source src="LibertyBellMarchRecovered.ogg" type="audio/ogg">
-		<source src="LibertyBellMarchRecovered.mp3" type="audio/mpeg">
-		Your browser does not support the audio tag.
-	</audio>
-	<script src="audio.js"></script>
 	
 </head>
 
@@ -22,18 +15,25 @@
 	<!-- First Stop, Navigation -->
 	<ul class = "nav">
 		<li><a href="index.html">Home</a></li>
-		<li><a href="references.html">References</a></li>
 		<li><a href="http://www.dell.com/en-ca/" target="_blank">Dell Support</a></li>
-		<li><a href="">Validated</a></li>
-		<li><a href="">About</a></li>
+		<li><a href="" target="_blank">Validated</a></li>
 		<li><button onclick="audioInterface()" class = "button">Play/Mute</button></li>
 	</ul>
+	
+	<!-- The Liberty Bell March -->
+	<audio loop id="theme">
+		<source src="LibertyBellMarchRecovered.ogg" type="audio/ogg">
+		<source src="LibertyBellMarchRecovered.mp3" type="audio/mpeg">
+		Your browser does not support the audio tag.
+	</audio>
+	<script src="audio.js"></script>
+	
 	<!-- Second Stop, Content-->
 	<div class= "content">
 		<h1 style="border-bottom : solid;">Cindia, Catherine, James, and Frank's Intermediate Computer Science Website</h1>
 		<!-- Just add these. Simple and each to use.-->
-		<article>
-			<h1>How to take apart a computer</h1>
+		<article style="border-bottom : solid;">
+			<h2>How to take apart a computer</h2>
 			<img src="place.png" alt = "This image is not availible"/>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at tristique odio, vitae malesuada neque. Praesent molestie, ipsum vel rutrum consectetur, 
@@ -52,7 +52,106 @@
 				ipsum tristique rhoncus laoreet, enim massa pulvinar quam, ac euismod enim quam at neque. Pellentesque commodo sem nisl, 
 				eu gravida turpis aliquet rhoncus. Nulla neque nisi, imperdiet ut porttitor vitae, tristique sed sem.
 			</p>
-			
+		</article>
+		
+		<article style="border-bottom : solid;">
+			<h2>All the Components</h2>
+			<div class = "imgContainerTable">
+				<div class = "imgContainerRow">
+					<h3 style="margin-right:5%;" class="imgContainerItem"> Motherboard </h3>
+					<h3 style="margin-right:5%;" class="imgContainerItem"> CPU </h3>
+					<h3 style="" class="imgContainerItem"> RAM </h3>
+					<img src="place.png" alt = "This image is not availible" style="margin-right:5%;" class="imgContainerItem"/>
+					<img src="place.png" alt = "This image is not availible" style="margin-right:5%;" class="imgContainerItem"/>
+					<img src="place.png" alt = "This image is not availible" style="" class="imgContainerItem"/>
+				</div>
+				<div class = "imgContainerRow">
+					<h3 style="margin-right:5%;" class="imgContainerItem"> Power Supply </h3>
+					<h3 style="margin-right:5%;" class="imgContainerItem"> Sound Card </h3>
+					<h3 style="" class="imgContainerItem"> Video Card </h3>
+					<img src="place.png" alt = "This image is not availible" style="margin-right:5%;" class="imgContainerItem"/>
+					<img src="place.png" alt = "This image is not availible" style="margin-right:5%;" class="imgContainerItem"/>
+					<img src="place.png" alt = "This image is not availible" style="" class="imgContainerItem"/>
+				</div>
+				<div class = "imgContainerRow">
+					<h3 style="margin-right:5%;" class="imgContainerItem"> Heat Sink </h3>
+					<h3 style="margin-right:5%;" class="imgContainerItem"> Fan </h3>
+					<h3 style="" class="imgContainerItem"> BIOS </h3>
+					<img src="place.png" alt = "This image is not availible" style="margin-right:5%;" class="imgContainerItem"/>
+					<img src="place.png" alt = "This image is not availible" style="margin-right:5%;" class="imgContainerItem"/>
+					<img src="place.png" alt = "This image is not availible" style="" class="imgContainerItem"/>
+				</div>
+				<div class = "imgContainerRow">
+					<h3 style="margin-right:5%;" class="imgContainerItem"> Floppy Disk Drive </h3>
+					<h3 style="margin-right:5%;" class="imgContainerItem"> CD-ROM Drive </h3>
+					<h3	style="" class="imgContainerItem"> Hard Drive </h3>
+					<img src="place.png" alt = "This image is not availible" style="margin-right:5%;" class="imgContainerItem"/>
+					<img src="place.png" alt = "This image is not availible" style="margin-right:5%;" class="imgContainerItem"/>
+					<img src="place.png" alt = "This image is not availible" style="" class="imgContainerItem"/>
+				</div>
+			</div>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at tristique odio, vitae malesuada neque. Praesent molestie, ipsum vel rutrum consectetur, 
+				quam massa faucibus mauris, sit amet tempor nisi metus non quam. Donec non rutrum nibh, vehicula fermentum orci. 
+				Nunc sed venenatis massa, id rhoncus dui. Vestibulum hendrerit commodo elit quis rhoncus. Nulla scelerisque blandit gravida. 
+				Mauris et venenatis metus. Nullam a ante est. Integer blandit pulvinar turpis vitae convallis. Suspendisse maximus consequat iaculis.
+				Nullam in varius ex. Nullam et leo elit. 
+				Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+			</p>
+			<p>
+				Fusce et purus hendrerit, scelerisque nulla sit amet, tempor magna. Proin suscipit rutrum malesuada. Maecenas quis sem sem. 
+				In commodo tincidunt elit, vel tincidunt odio semper ac. Mauris volutpat nec purus a auctor. Vestibulum tellus dolor, porttitor at eros at, 
+				vehicula bibendum mi. Suspendisse potenti. Fusce erat ipsum, elementum vitae est id, blandit commodo justo. Integer iaculis, 
+				neque sed hendrerit dictum, enim dolor viverra ante, vitae cursus orci magna at nisi. Donec fringilla neque ut pretium fermentum. 
+				Integer sollicitudin mauris vel scelerisque tempus. Fusce sollicitudin euismod nisl, nec rutrum mi pellentesque et. Praesent porttitor, 
+				ipsum tristique rhoncus laoreet, enim massa pulvinar quam, ac euismod enim quam at neque. Pellentesque commodo sem nisl, 
+				eu gravida turpis aliquet rhoncus. Nulla neque nisi, imperdiet ut porttitor vitae, tristique sed sem.
+			</p>
+		</article>
+		
+		<article style="border-bottom : solid;">
+			<h2>Before and After</h2>
+			<img src="place.png" alt = "This image is not availible" style="width : 50%;float:left;"/>
+			<img src="place.png" alt = "This image is not availible" style="width : 50%;float:right;"/>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at tristique odio, vitae malesuada neque. Praesent molestie, ipsum vel rutrum consectetur, 
+				quam massa faucibus mauris, sit amet tempor nisi metus non quam. Donec non rutrum nibh, vehicula fermentum orci. 
+				Nunc sed venenatis massa, id rhoncus dui. Vestibulum hendrerit commodo elit quis rhoncus. Nulla scelerisque blandit gravida. 
+				Mauris et venenatis metus. Nullam a ante est. Integer blandit pulvinar turpis vitae convallis. Suspendisse maximus consequat iaculis.
+				Nullam in varius ex. Nullam et leo elit. 
+				Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+			</p>
+			<p>
+				Fusce et purus hendrerit, scelerisque nulla sit amet, tempor magna. Proin suscipit rutrum malesuada. Maecenas quis sem sem. 
+				In commodo tincidunt elit, vel tincidunt odio semper ac. Mauris volutpat nec purus a auctor. Vestibulum tellus dolor, porttitor at eros at, 
+				vehicula bibendum mi. Suspendisse potenti. Fusce erat ipsum, elementum vitae est id, blandit commodo justo. Integer iaculis, 
+				neque sed hendrerit dictum, enim dolor viverra ante, vitae cursus orci magna at nisi. Donec fringilla neque ut pretium fermentum. 
+				Integer sollicitudin mauris vel scelerisque tempus. Fusce sollicitudin euismod nisl, nec rutrum mi pellentesque et. Praesent porttitor, 
+				ipsum tristique rhoncus laoreet, enim massa pulvinar quam, ac euismod enim quam at neque. Pellentesque commodo sem nisl, 
+				eu gravida turpis aliquet rhoncus. Nulla neque nisi, imperdiet ut porttitor vitae, tristique sed sem.
+			</p>
+		</article>
+		
+		<article style="border-bottom : solid;">
+			<h2>What happens afterwards</h2>
+			<img src="place.png" alt = "This image is not availible"/>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at tristique odio, vitae malesuada neque. Praesent molestie, ipsum vel rutrum consectetur, 
+				quam massa faucibus mauris, sit amet tempor nisi metus non quam. Donec non rutrum nibh, vehicula fermentum orci. 
+				Nunc sed venenatis massa, id rhoncus dui. Vestibulum hendrerit commodo elit quis rhoncus. Nulla scelerisque blandit gravida. 
+				Mauris et venenatis metus. Nullam a ante est. Integer blandit pulvinar turpis vitae convallis. Suspendisse maximus consequat iaculis.
+				Nullam in varius ex. Nullam et leo elit. 
+				Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+			</p>
+			<p>
+				Fusce et purus hendrerit, scelerisque nulla sit amet, tempor magna. Proin suscipit rutrum malesuada. Maecenas quis sem sem. 
+				In commodo tincidunt elit, vel tincidunt odio semper ac. Mauris volutpat nec purus a auctor. Vestibulum tellus dolor, porttitor at eros at, 
+				vehicula bibendum mi. Suspendisse potenti. Fusce erat ipsum, elementum vitae est id, blandit commodo justo. Integer iaculis, 
+				neque sed hendrerit dictum, enim dolor viverra ante, vitae cursus orci magna at nisi. Donec fringilla neque ut pretium fermentum. 
+				Integer sollicitudin mauris vel scelerisque tempus. Fusce sollicitudin euismod nisl, nec rutrum mi pellentesque et. Praesent porttitor, 
+				ipsum tristique rhoncus laoreet, enim massa pulvinar quam, ac euismod enim quam at neque. Pellentesque commodo sem nisl, 
+				eu gravida turpis aliquet rhoncus. Nulla neque nisi, imperdiet ut porttitor vitae, tristique sed sem.
+			</p>
 		</article>
 	</div>
 </body>
