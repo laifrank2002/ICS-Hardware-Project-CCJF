@@ -11,13 +11,19 @@ ul.nav {
     padding: 0;
 	width: 15%;
 	background-color : #383527;
-	font-size : 1.5em;
+	font-size : 18px;
 	/* Auto Handle */
 	height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
-
+/* Heading */
+h2 {
+	font-size : 18px;
+}
+h3 {
+	font-size : 14px;
+}
 /* Dynamic */
 li a {
 	display: block;
@@ -46,6 +52,9 @@ a:hover {
 	padding: 8px 16px;
     cursor: pointer;
 }
+p {
+	display : table;
+}
 /* Regulation so no overlap, This is the content Div, all the content goes here.*/
 .content {
 	background-image: url("wallpaper.jpg");
@@ -55,26 +64,37 @@ a:hover {
 /* makes it centered and looks nice*/
 article {
 	margin-left : 20%;
-	margin-right : 20%;
+	margin-right : 19%;
 	width : 60%;
 	background-image: url("blogpaper.jpg");
 	padding : 10px;
 }
 
 img {
-	display: block;
+	/*display: block;*/
     margin: auto;
 	width: 100%;
 }
 /* for displaying many images */
+.imageContainerTable {
+	display : table;
+}
 .imgContainerItem {
-	width:30%;
+	width:29.5%;
+	height : 75px;
 	float:left;
+	display : table-row	;
+}
+.imgContainerHeading {
+	float:left;
+	text-align : center;
+	width:29.5%;
+	display : table-row	;
 }
 /* makes the footer a footer */
 footer {
 	display : block;
-	position:absolute;
+	position : absolute;
 	background-color : #0c0a00;
 	color : grey; 
 	width : 100%;
